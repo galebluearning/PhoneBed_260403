@@ -1,0 +1,25 @@
+# Build
+build/
+
+# ESP-IDF
+managed_components/
+sdkconfig.old
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# OS
+.DS_Store
+
+# VSCode（保留 tasks、launch、extensions 和 code-snippets）
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
